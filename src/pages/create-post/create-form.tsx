@@ -9,7 +9,7 @@ export const CreateForm = () => {
     return (
     <form>
         <input placeholder="Title..." />
-        <input placeholder="Description..." />
+        <textarea placeholder="Description..." />
         <input type="submit" />
     </form>
     );
