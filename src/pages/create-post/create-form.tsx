@@ -1,1 +1,3 @@
-export const CreateForm = () => {};
+export const CreateForm = () => {
+    return <form></form>;
+};
