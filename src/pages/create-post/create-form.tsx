@@ -16,11 +16,7 @@ export const CreateForm = () => {
     });
     
     const postsRef = collection(db, "posts");
-    const { 
-        register, 
-        handleSubmit, 
-        formState: { errors }, 
-    } = useForm<CreateFormData>({
+    const { register, handleSubmit, formState: { errors }, } = useForm<CreateFormData>({
         resolver: yupResolver(schema),
     });
 
